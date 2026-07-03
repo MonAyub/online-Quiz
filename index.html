@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Online Quiz System</h1>
+
+    <div class="student-info">
+        <label>Student Name</label><br>
+        <input type="text" id="studentName" placeholder="Enter Your Name">
+    </div>
+
+    <form id="quizForm">
+
+        <div class="question">
+            <h3>1. Which language is used to design web pages?</h3>
+
+            <label><input type="radio" name="q1" value="HTML"> HTML</label><br>
+            <label><input type="radio" name="q1" value="Java"> Java</label><br>
+            <label><input type="radio" name="q1" value="Python"> Python</label><br>
+            <label><input type="radio" name="q1" value="C"> C</label>
+        </div>
+
+        <div class="question">
+            <h3>2. Which language is used for styling web pages?</h3>
+
+            <label><input type="radio" name="q2" value="CSS"> CSS</label><br>
+            <label><input type="radio" name="q2" value="Java"> Java</label><br>
+            <label><input type="radio" name="q2" value="Python"> Python</label><br>
+            <label><input type="radio" name="q2" value="C++"> C++</label>
+        </div>
+
+        <div class="question">
+            <h3>3. Which language is used to make a website interactive?</h3>
+
+            <label><input type="radio" name="q3" value="JavaScript"> JavaScript</label><br>
+            <label><input type="radio" name="q3" value="HTML"> HTML</label><br>
+            <label><input type="radio" name="q3" value="CSS"> CSS</label><br>
+            <label><input type="radio" name="q3" value="Java"> Java</label>
+        </div>
+
+        <div class="question">
+            <h3>4. HTML stands for?</h3>
+
+            <label><input type="radio" name="q4" value="Hyper Text Markup Language">Hyper Text Markup Language</label><br>
+            <label><input type="radio" name="q4" value="High Text Machine Language">High Text Machine Language</label><br>
+            <label><input type="radio" name="q4" value="Hyper Tool Markup Language">Hyper Tool Markup Language</label><br>
+            <label><input type="radio" name="q4" value="Home Tool Markup Language">Home Tool Markup Language</label>
+        </div>
+
+        <div class="question">
+            <h3>5. CSS stands for?</h3>
+
+            <label><input type="radio" name="q5" value="Cascading Style Sheets">Cascading Style Sheets</label><br>
+            <label><input type="radio" name="q5" value="Computer Style Sheets">Computer Style Sheets</label><br>
+            <label><input type="radio" name="q5" value="Creative Style Sheets">Creative Style Sheets</label><br>
+            <label><input type="radio" name="q5" value="Color Style Sheets">Color Style Sheets</label>
+        </div>
+
+        <button type="button" onclick="checkQuiz()">
+            Submit Quiz
+        </button>
+
+    </form>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
