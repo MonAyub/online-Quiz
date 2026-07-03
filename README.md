@@ -55,13 +55,6 @@ Online-Quiz-System/
 - Java Servlet Backend
 - MySQL Support
 
-## 👨‍💻 Developer
 
-**Monirojjaman Ayub**
-
-- GitHub: https://github.com/YourGitHubUsername
-- Email: your-email@example.com
-
----
 
 ⭐ If you like this project, don't forget to give it a Star!
